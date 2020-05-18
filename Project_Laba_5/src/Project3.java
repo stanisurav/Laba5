@@ -45,7 +45,7 @@ label4.setFont(font);
 label4.setBounds(600, 200, size.width, size.height);
 
 
-JLabel label6 = new JLabel("Хисматуллин О.М.");
+JLabel label6 = new JLabel("Хисматуллин О.М.\nHisoskar@gmail.com");
 panel.add(label6);
 label6.setFont(font);
 label6.setBounds(600, 300, 300, size.height);
