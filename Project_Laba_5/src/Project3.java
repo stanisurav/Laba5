@@ -55,6 +55,11 @@ panel.add(label8);
 label8.setFont(font);
 label8.setBounds(600, 400, size.width, size.height);
 
+JLabel label_mail = new JLabel("ilyu-isaev@yandex.ru ");
+panel.add(label_mail);
+label_mail.setFont(font);
+label_mail.setBounds(600, 450, 400, size.height);
+
 JLabel label10 = new JLabel("V=" + 0.6*100*0.02*100*Double.parseDouble(dlina)+" cì^3 =" + (0.6*100*0.02*100*Double.parseDouble(dlina))/1000000+" ì^3");
 panel.add(label10);
 label10.setFont(font);
