@@ -78,6 +78,13 @@ panel.add(button2);
 button2.setFont(font);
 button2.setBounds(200, 400, 200, 100);
 
+button2.addActionListener(new ActionListener() {
+	public void actionPerformed(ActionEvent e) {
+	JOptionPane.showMessageDialog(null,"Крупнейший веб-сервис для хостинга IT-проектов и их совместной разработки. \n"
+	+ "Веб-сервис основан на системе контроля версий Git и разработан на Ruby on Rails и Erlang компанией GitHub, Inc.","GitHub",JOptionPane.INFORMATION_MESSAGE);
+	}
+	});
+
 JLabel labelInf = new JLabel("Кнопка информации добавлена");
 panel.add(labelInf);
 labelInf.setFont(font);
