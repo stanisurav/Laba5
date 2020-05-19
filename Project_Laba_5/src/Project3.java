@@ -39,6 +39,11 @@ panel.add(label2);
 label2.setFont(font);
 label2.setBounds(600, 100, size.width, size.height);
 
+JLabel labelmail = new JLabel("korolenko-stanislav@mail.ru");
+panel.add(labelmail);
+labelmail.setFont(font);
+labelmail.setBounds(600, 150, 300, size.height);
+
 JLabel label4 = new JLabel("Шайхинуров Т.А.");
 panel.add(label4);
 label4.setFont(font);
